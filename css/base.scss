@@ -6547,9 +6547,12 @@ body {
 }
 
 .keywords-purple {
-  margin: 0 2px;
-  @include keywords(#ffd9e8, #7f4a88, transparent);
-  font-size: 1.1em;
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #ffd9e8;
+  background-color: #7f4a88;
+  border-radius: 4px
 }
 
 .keywords-green {
