@@ -6586,14 +6586,14 @@ body {
 
 .banner {
   background-size: cover;
-  background: url(../img/bg_0.jpg) no-repeat;
+  background: url(//img.alicdn.com/imgextra/i1/668252679/TB2i1rIfmVmpuFjSZFFXXcZApXa_!!668252679.jpg) no-repeat;
   background-position-x: center;
   line-height: 270px;
 }
 
 @media screen and (max-width: 768px) {
   .banner {
-    background-image: url(https://wx4.sinaimg.cn/mw690/005JVuCMly1fby189qoglj30a004gmyh.jpg);
+    background-image: url(//wx4.sinaimg.cn/mw690/005JVuCMly1fby189qoglj30a004gmyh.jpg);
     height: 160px;
     -ms-background-position-y: center;
     background-position-y: center;
