@@ -8,7 +8,7 @@
     <meta name="renderer" content="webkit|ie-comp|ie-stand">
     <meta name="apple-mobile-web-app-capable" content="yes"/>
     <title>海伯伦的荣耀—卢克Raid模式奖励介绍</title>
-    <link rel="shortcut icon" href="favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
     <meta name="x5-fullscreen" content="true">
     <meta name="x5-page-mode" content="app">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -83,7 +83,7 @@
                                 <a href="#item-5">板甲防具 - 堕落的七宗罪 套装</a>
                             </li>
                             <li>
-                                <a href="#item-5">特殊装备 - 海伯伦的君主 套装</a>
+                                <a href="#item-6">特殊装备 - 海伯伦的君主 套装</a>
                             </li>
                         </ul>
                 </ul>
@@ -850,13 +850,14 @@
                 $top.hide();
             }
         });
+
+        //媒体响应偏移值 offset 70
+        $('body').scrollspy({
+            target: '.navbar-example',
+            offset: 70
+        });
     });
 
-    //媒体响应偏移值 offset 70
-    $('body').scrollspy({
-        target: '.navbar-example',
-        offset: 70
-    });
 
     //锚链接偏移 50
     //移动速度 500
