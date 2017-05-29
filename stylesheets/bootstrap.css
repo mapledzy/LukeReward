@@ -1398,7 +1398,8 @@ dd {
 
 dt {
   font-weight: bold;
-  margin-bottom: 8px; }
+  margin-bottom: 8px;
+  color: #e91e63; }
 
 dd {
   margin-bottom: 28px;
@@ -4342,7 +4343,7 @@ a.badge:hover, a.badge:focus {
   padding-bottom: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #fee856; }
+  background-color: #ffe35e; }
   .jumbotron h1,
   .jumbotron .h1 {
     color: inherit; }
@@ -4351,7 +4352,7 @@ a.badge:hover, a.badge:focus {
     font-size: 21px;
     font-weight: 200; }
   .jumbotron > hr {
-    border-top-color: #fee123; }
+    border-top-color: #ffda2b; }
   .container .jumbotron, .container-fluid .jumbotron {
     border-radius: 6px;
     padding-left: 15px;
