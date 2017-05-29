@@ -1,0 +1,21 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "主要打算练习一下排版，与HTML5语义化~水滴石穿嘛 加油",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mapledzy/LukeReward.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mapledzy/LukeReward/issues"
+  },
+  "homepage": "https://github.com/mapledzy/LukeReward#readme"
+}
