@@ -125,7 +125,7 @@ q{
 
 @include text-emphasis-variant('.text-warning', $state-warning-text);
 
-@include text-emphasis-variant('.text-danger', $state-danger-text);
+@include text-emphasis-variant('.text-danger', #f44336);
 
 // Contextual backgrounds
 // For now we'll leave these alongside the text classes until v4 when we can
@@ -170,6 +170,10 @@ ol {
   }
 }
 
+li.wrap {
+  margin-top: 1em;
+}
+
 // List options
 
 // [converter] extracted from `.list-unstyled` for libsass compatibility
@@ -211,6 +215,14 @@ dt {
 dd {
   margin-bottom: 28px;
   margin-left: 0; // Undo browser default
+}
+
+dd.border-right {
+  border-right: 1px solid #eee;
+
+  @media screen and (max-width: 768px) {
+    border-right: 0 none;
+  }
 }
 
 // Horizontal description lists
