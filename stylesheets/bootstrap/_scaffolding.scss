@@ -67,9 +67,25 @@ a {
 // ensures we don't break anyone's use of the element.
 
 figure {
-  margin: 0;
-}
+  display: inline-block;
+  border: 1px solid #eeeeee;
+  margin: 0 0 16px;
 
+  > img {
+    margin: 4px;
+  }
+
+  > figcaption {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+
+    p {
+      margin: 0;
+      color: #ff9800;
+    }
+  }
+}
 
 // Images
 
